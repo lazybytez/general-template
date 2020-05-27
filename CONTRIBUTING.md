@@ -72,4 +72,4 @@ We really appreciate your work spent on contributions to our project, as people 
 If you have some suggestions to this contributing guidelines, feel free to suggest them!
 
 <!-- Variables -->
-[report]: mailto:elias.knodel@gmail.com
+[reportmail]: mailto:elias.knodel@gmail.com
