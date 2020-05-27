@@ -59,7 +59,7 @@ It is very important that you link the right issue in the "Solves issue" section
 
 Requirements for an approved PR:
  1. Merge into develop: You need one approving review from a collaborator or maintainer.
- 2. The TravisCI checks have to pass.
+ 2. The CI checks have to pass.
  4. All requested changes and conversations have to be resolved before the merge.
  5. You need a linked issue that the PR solves.
  6. Merge into master: Only develop is allowed to be merged into master.
