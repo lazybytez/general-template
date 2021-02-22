@@ -13,7 +13,6 @@ This is a general repository template for all projects done by the organization 
 tbd
 
 ## Contributing
-
 If you want to take part in contribution, like fixing issues and contributing directly to the code base, plase visit the [How to Contribute][github-contribute] document.
 
 ## Useful links:
@@ -26,7 +25,7 @@ If you want to take part in contribution, like fixing issues and contributing di
 
 <hr>  
 
-###### Copyright (c) [Lazy Bytez][github-team]. All rights reserved | Licensed under the MIT license. | 2020 - today
+###### Copyright (c) [Lazy Bytez][github-team]. All rights reserved | Licensed under the MIT license. | 2021
 
 <!-- Variables -->
 [github-team]: https://github.com/lazybytez
