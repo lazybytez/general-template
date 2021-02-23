@@ -25,7 +25,7 @@ If you want to take part in contribution, like fixing issues and contributing di
 
 <hr>  
 
-###### Copyright (c) [Lazy Bytez][github-team]. All rights reserved | Licensed under the MIT license. | 2021
+###### Copyright (c) [Lazy Bytez][github-team]. All rights reserved | Licensed under the MIT license.
 
 <!-- Variables -->
 [github-team]: https://github.com/lazybytez
