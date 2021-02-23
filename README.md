@@ -1,13 +1,11 @@
 # General Template
-This is a general repository template for all projects done by the organization lazybytez. You can use it if you want. Just be sure to modify the names and emails.
-
----- 
 
   ![commit-info][commit-info]
   ![contributors-info][contributors-info]
   ![reposize-info][reposize-info]
 
-----
+## Description
+This is a general repository template for all projects done by the organization lazybytez. You can use it if you want. Just be sure to modify the names and emails.
 
 ## Getting started:
 tbd
