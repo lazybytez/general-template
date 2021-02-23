@@ -4,8 +4,7 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.x   | :white_check_mark: |
-| < 1.0   | :x:                |
+| 1.x     | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
@@ -13,4 +12,4 @@ If you find some really serious security issue, please don't create a GitHub iss
 Send a mail to [this email][reportmail] instead, to keep it structured you can simply copy our bug template into your mail.
 
 <!-- Variables -->
-[reportmail]: mailto:elias.knodel@gmail.com
+[reportmail]: mailto:security@lazybytez.de
