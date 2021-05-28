@@ -4,13 +4,13 @@
   ![contributors-info][contributors-info]
   ![reposize-info][reposize-info]
 
-## Description
+## Description:
 This is a general repository template for all projects done by the organization lazybytez. You can use it if you want. Just be sure to modify the names and emails.
 
 ## Getting started:
 tbd
 
-## Contributing
+## Contributing:
 If you want to take part in contribution, like fixing issues and contributing directly to the code base, plase visit the [How to Contribute][github-contribute] document.
 
 ## Useful links:
