@@ -3,9 +3,11 @@
   ![commit-info][commit-info]
   ![contributors-info][contributors-info]
   ![reposize-info][reposize-info]
+  ![stars][stars]
 
 ## Description
-This is a general repository template for all projects done by the organization lazybytez. You can use it if you want. Just be sure to modify the names and emails.
+This is a general repository template for all projects done by the organization lazybytez.  
+You can use it if you want. Just be sure to modify the names and emails.
 
 ## Getting started
 tbd
@@ -28,13 +30,15 @@ If you want to take part in contribution, like fixing issues and contributing di
 [github-team]: https://github.com/lazybytez
 
 [github-license]: https://github.com/lazybytez/general-template/blob/main/LICENSE
-[github-contribute]: https://github.com/lazybytez/general-template/blob/main/CONTRIBUTING.md
-[github-codeofconduct]: https://github.com/lazybytez/general-template/blob/main/CODE_OF_CONDUCT.md
+[github-contribute]: https://github.com/lazybytez/.github/blob/main/docs/CONTRIBUTING.md
+[github-codeofconduct]: https://github.com/lazybytez/.github/blob/main/docs/CODE_OF_CONDUCT.md
 [github-issues]: https://github.com/lazybytez/general-template/issues
 [github-pulls]: https://github.com/lazybytez/general-template/pulls
 
-[commit-info]: https://img.shields.io/github/last-commit/lazybytez/general-template?style=flat-square
+[stars]: https://img.shields.io/github/stars/lazybytez?colorA=1e1e28&colorB=8756E6&style=for-the-badge
 
-[contributors-info]: https://img.shields.io/github/contributors/lazybytez/general-template?style=flat-square
+[commit-info]: https://img.shields.io/github/last-commit/lazybytez/general-template?style=for-the-badge&colorA=1e1e28&colorB=8756E6
 
-[reposize-info]: https://img.shields.io/github/repo-size/lazybytez/general-template?style=flat-square
+[contributors-info]: https://img.shields.io/github/contributors/lazybytez/general-template?style=for-the-badge&colorA=1e1e28&colorB=8756E6
+
+[reposize-info]: https://img.shields.io/github/repo-size/lazybytez/general-template?style=for-the-badge&colorA=1e1e28&colorB=8756E6

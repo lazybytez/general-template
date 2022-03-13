@@ -1,0 +1,18 @@
+# Checks for Git branches and commit messages to keep consistency
+name: Git
+
+on: ["pull_request"]
+
+jobs:
+  # Verify that the commits matches the format
+  verify_commit_messages:
+    if: (github.actor!= 'dependabot[bot]') && (contains(github.head_ref, 'dependabot/github_actions/') == false)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Run commitlint
+        uses: wagoid/commitlint-github-action@v2
+        with:
+          configFile: commitlint.config.js
