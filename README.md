@@ -1,9 +1,8 @@
 # General Template
 
-![commit-info][commit-info]
-![contributors-info][contributors-info]
-![repository-size][repository-size]
-![stars][stars]
+[![gh-commit-badge][gh-commit-badge]][gh-commit]
+[![gh-contributors-badge][gh-contributors-badge]][gh-contributors]
+[![gh-stars-badge][gh-stars-badge]][gh-stars]
 
 ## Description
 
@@ -17,38 +16,42 @@ tbd
 ## Contributing
 
 If you want to take part in contribution, like fixing issues and contributing directly to the code base, plase visit
-the [How to Contribute][github-contribute] document.
+the [How to Contribute][gh-contribute] document.
 
 ## Useful links
 
-[License][github-license] -
-[Contributing][github-contribute] -
-[Code of conduct][github-codeofconduct] -
-[Issues][github-issues] -
-[Pull requests][github-pulls]
+[License][gh-license] -
+[Contributing][gh-contribute] -
+[Code of conduct][gh-codeofconduct] -
+[Issues][gh-issues] -
+[Pull requests][gh-pulls]
 
 <hr>  
 
-###### Copyright (c) [Lazy Bytez][github-team]. All rights reserved | Licensed under the MIT license.
+###### Copyright (c) [Lazy Bytez][gh-team]. All rights reserved | Licensed under the MIT license.
 
 <!-- Variables -->
 
-[github-team]: https://github.com/lazybytez
+[gh-commit-badge]: https://img.shields.io/github/last-commit/lazybytez/general-template?style=for-the-badge&colorA=302D41&colorB=cba6f7
 
-[github-license]: https://github.com/lazybytez/general-template/blob/main/LICENSE
+[gh-commit]: https://github.com/lazybytez/general-template/commits/main
 
-[github-contribute]: https://github.com/lazybytez/.github/blob/main/docs/CONTRIBUTING.md
+[gh-contributors-badge]: https://img.shields.io/github/contributors/lazybytez/general-template?style=for-the-badge&colorA=302D41&colorB=89dceb
 
-[github-codeofconduct]: https://github.com/lazybytez/.github/blob/main/docs/CODE_OF_CONDUCT.md
+[gh-contributors]: https://github.com/lazybytez/general-template/graphs/contributors
 
-[github-issues]: https://github.com/lazybytez/general-template/issues
+[gh-stars-badge]: https://img.shields.io/github/stars/lazybytez?style=for-the-badge&colorA=302D41&colorB=f9e2af
 
-[github-pulls]: https://github.com/lazybytez/general-template/pulls
+[gh-stars]: https://github.com/lazybytez/general-template/stargazers
 
-[commit-info]: https://img.shields.io/github/last-commit/lazybytez/general-template?style=for-the-badge&colorA=302D41&colorB=cba6f7
+[gh-contribute]: https://github.com/lazybytez/.github/blob/main/docs/CONTRIBUTING.md
 
-[contributors-info]: https://img.shields.io/github/contributors/lazybytez/general-template?style=for-the-badge&colorA=302D41&colorB=cba6f7
+[gh-license]: https://github.com/lazybytez/general-template/blob/main/LICENSE
 
-[repository-size]: https://img.shields.io/github/repo-size/lazybytez/general-template?style=for-the-badge&colorA=302D41&colorB=cba6f7
+[gh-codeofconduct]: https://github.com/lazybytez/.github/blob/main/docs/CODE_OF_CONDUCT.md
 
-[stars]: https://img.shields.io/github/stars/lazybytez?colorA=302D41&colorB=cba6f7&style=for-the-badge
+[gh-issues]: https://github.com/lazybytez/general-template/issues
+
+[gh-pulls]: https://github.com/lazybytez/general-template/pulls
+
+[gh-team]: https://github.com/lazybytez
