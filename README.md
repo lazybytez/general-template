@@ -15,7 +15,7 @@ tbd
 
 ## Contributing
 
-If you want to take part in contribution, like fixing issues and contributing directly to the code base, plase visit
+If you want to take part in contribution, like fixing issues and contributing directly to the code base, please visit
 the [How to Contribute][gh-contribute] document.
 
 ## Useful links
