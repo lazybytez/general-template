@@ -15,7 +15,8 @@ Include as much of the following as possible:
 
 ## Response Timeline
 
-- **Acknowledgement:** within 5 days
+- **Acknowledgement:** within 48 hours
+- **Initial assessment:** within 5 days
 - **Fix or mitigation:** depends on severity
 
 ## Supported Versions
