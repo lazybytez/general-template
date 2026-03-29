@@ -15,9 +15,8 @@ Include as much of the following as possible:
 
 ## Response Timeline
 
-- **Acknowledgement:** within 48 hours
-- **Initial assessment:** within 5 business days
-- **Fix or mitigation:** depends on severity, but we prioritize security issues above all else
+- **Acknowledgement:** within 5 days
+- **Fix or mitigation:** depends on severity
 
 ## Supported Versions
 
