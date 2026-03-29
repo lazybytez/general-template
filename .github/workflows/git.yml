@@ -1,29 +1,41 @@
-# Checks for Git branches and commit messages to keep consistency
 name: Git
 
-on: ["pull_request"]
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: read
 
 jobs:
-  # Verify that the branch name matches the format
   verify_branch_name:
+    name: Verify Branch Name
     runs-on: ubuntu-latest
     steps:
       - name: Check branch name
-        uses: deepakputhraya/action-branch-name@master
-        with:
-          regex: '([a-zA-Z0-0-])+\/([a-zA-Z0-0-])+'
-          allowed_prefixes: "feature,fix,hotfix,release,renovate"
-          ignore: main,develop
+        env:
+          BRANCH: ${{ github.head_ref }}
+        run: |
+          PATTERN='^(feature|fix|hotfix|release|renovate)/[a-zA-Z0-9-]+'
+          if [[ "$BRANCH" =~ $PATTERN ]]; then
+            echo "Branch name '$BRANCH' is valid."
+          else
+            echo "::error::Branch name '$BRANCH' does not match the required pattern: prefix/description"
+            echo "Allowed prefixes: feature, fix, hotfix, release, renovate"
+            exit 1
+          fi
 
-  # Verify that the commits matches the format
   verify_commit_messages:
-    if: (github.actor!= 'renovate[bot]') && (contains(github.head_ref, 'renovate/github_actions/') == false)
+    name: Verify Commit Messages
+    if: github.actor != 'renovate[bot]' && !startsWith(github.head_ref, 'renovate/')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Run commitlint
-        uses: wagoid/commitlint-github-action@v4
+        uses: wagoid/commitlint-github-action@v6
         with:
-          configFile: commitlint.config.cjs
+          configFile: commitlint.config.mjs
